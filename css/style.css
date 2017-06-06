@@ -1,13 +1,14 @@
 body{
     background-color:#f7f7f7;
     font-family: 'Lato', sans-serif;
+    color: #636363;
 }
 h1{
     color: #333333;
     font-size:60px; 
     font-family: 'Noto Serif', serif;
     text-transform: uppercase;
-    padding: 20px 0px;
+    
 }
 h2{
     color: #333333;
@@ -17,5 +18,26 @@ h2{
     font-weight: 400;
     font-style: italic;
     border-bottom: 1px solid #d5d5d5;
-    padding: 10px 0px;
+    padding-bottom: 10px;
+    
+}
+
+.white-bg{
+    background-color: #fff;
+    padding: 120px 0px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 0px;
+    text-align: justify;
+}
+
+.portrait-img{
+    margin:120px 30px;
+}
+
+.content-div{
+    margin: 0px 0px 100px 0px;
 }
