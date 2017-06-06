@@ -41,3 +41,32 @@ p{
 .content-div{
     margin: 0px 0px 100px 0px;
 }
+
+.page-link, .page-link:focus{
+    color: #636363;
+    text-transform: uppercase;
+    border: 2px solid #b6657c;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-out; 
+}
+
+.page-link:hover{
+    color: #fff;
+    background-color: #b6657c;
+    transition: background-color 0.5s ease-out; 
+}
+
+.more{
+    font-size: 14px;
+    padding: 8px 25px;
+}
+
+.home{
+    font-size: 20px;
+    border-radius: 35px !important;
+    padding: 8px 13px;
+}
+
+.menu{
+    margin: 30px 0px;
+}
