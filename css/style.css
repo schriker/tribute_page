@@ -1,7 +1,8 @@
 body{
-    background-color:#f7f7f7;
+    background-color:#e7e7e7;
     font-family: 'Lato', sans-serif;
     color: #636363;
+    position: relative;
 }
 h1{
     color: #333333;
@@ -24,7 +25,6 @@ h2{
 
 .white-bg{
     background-color: #fff;
-    padding: 120px 0px;
 }
 
 p{
@@ -39,7 +39,7 @@ p{
 }
 
 .content-div{
-    margin: 0px 0px 100px 0px;
+    padding: 120px 0px 0px 0px;
 }
 
 .page-link, .page-link:focus{
@@ -68,5 +68,83 @@ p{
 }
 
 .menu{
-    margin: 30px 0px;
+    margin: 150px 0px 0px 0px;
+    position: fixed;
+}
+
+.menu-list{
+    position: relative;
+}
+
+.menu-list ul{
+    font-size: 14px;
+    margin-left: -20px;
+    margin-bottom: 65px;
+
+}
+
+.menu-list ul li{
+    list-style: none;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.menu-list ul li:last-child{
+    margin-bottom: -5px;
+}
+
+.menu-list ul li a, .menu-list ul li a:active{
+    color: #636363;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    padding-left: 20px;
+}
+
+.menu-list ul li a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-list ul li a::before{
+    content: "";
+    position: absolute;
+    z-index: 3;
+    display:inline-block;
+    top: 5px;
+    left: -2px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-out;
+    background-color:#fff;
+}
+
+li.active a::before{
+    background-color: #b6657c !important;
+    border: none !important;
+    border: none;
+}
+
+.grey-progres{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 22px;
+    background-color: #d3d3d3;
+    width: 2px;
+    height: 100%;
+}
+
+.color-progres{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 22px;
+    background-color: #b6657c;
+    width: 2px;
+    transition: all 0.2s ease-in;
 }
