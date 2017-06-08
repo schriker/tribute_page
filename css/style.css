@@ -148,3 +148,11 @@ li.active a::before{
     width: 2px;
     transition: all 0.2s ease-in;
 }
+
+.copyrights{
+    text-align: center;
+    font-style: italic;
+    padding: 80px 0px;
+    font-size: 16px;
+    color: #d3d3d3;
+}
